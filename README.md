@@ -69,10 +69,12 @@ CMD make
 
 # Docker y MacOS
 
-En Mac lo van a ver como un programa común y corriente en Applications. Para usarlo desde la consola tienen que abrirlo, como abririan cualquier programa. Pueden validar que tienen docker corriendo en su computadora en la barra de estado: 
+En Mac lo van a ver como un programa común y corriente en Applications. Para usarlo desde la consola tienen que abrirlo previamente para ejecutar el Docker desktop. Esto lo hacen abriendo la aplicación como abririan cualquier otra. 
+Pueden validar que tienen docker corriendo en su computadora en la barra de estado: 
 
 <img src="./docker-running-in-mac.png"  width="60%" height="30%">
 
+Validado que el docker desktop esté corriendo pueden usar los comandos de la consola sin problemas. 
 # Ejemplo TP1 
 
 Les dejo un video de cómo use el docker file de este repo en el TP1 y corrí el programa usando docker. 
