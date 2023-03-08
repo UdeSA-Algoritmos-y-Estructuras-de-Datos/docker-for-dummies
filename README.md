@@ -66,6 +66,7 @@ CMD make
 
 > :warning: El primer build puede tomar mucho tiempo pero luego, algunos pasos se catchean (como instalar linux) y anda super rápido. 
 
+> :exclamation: Recuerden hacer un build antes de un run!!!
 
 # Docker y MacOS
 
