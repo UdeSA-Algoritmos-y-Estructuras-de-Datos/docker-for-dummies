@@ -78,3 +78,5 @@ En Mac lo van a ver como un programa común y corriente en Applications. Para us
 Les dejo un video de cómo use el docker file de este repo en el TP1 y corrí el programa usando docker. 
 
 :eyes: [Link al video](https://drive.google.com/file/d/15Zt4MXd5km53dSl2bRHlrZ5MerYB0wNq/view?usp=share_link)
+
+:eyes: [Ejemplo con el tp resuelto y las pruebas andando](https://drive.google.com/file/d/1tcAq8kxiDeU0w-__ZcQOYVgvBGvf6bZF/view?usp=share_link)
