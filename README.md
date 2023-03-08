@@ -11,7 +11,7 @@ Docker for dummies
 
 
 # ¿Qué es docker?
-:bulb: Con el objetivo de resolver el problema de Valgrind en computadoras no-linux. Les dejo una solución con Docker.
+:bulb: Con el objetivo de resolver el problema de Valgrind en computadoras no-linux, les dejo una solución con Docker.
 
 Según la [documentación oficial](https://docs.docker.com/get-started/overview/):
 
