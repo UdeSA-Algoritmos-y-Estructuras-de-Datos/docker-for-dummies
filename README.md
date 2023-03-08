@@ -15,7 +15,8 @@ Para instalar docker, deben seguir los pasos de la [documentación oficial](http
 
 En Mac lo van a ver como un programa comun y corriente en Applications. Para usarlo desde la consola tienen que abrirlo, como abririan cualquier programa. Pueden validar que tienen docker corriendo en su computadora en la barra de estado: 
 
-![](./docker-running-in-mac.png)
+<img src="./docker-running-in-mac.png"  width="60%" height="30%">
+
 
 Una vez docker está instalado, necesitan copiar en la carpeta root de su proyecto el archivo Dockerfile.
 
