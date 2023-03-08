@@ -29,7 +29,7 @@ Una vez docker está instalado, necesitan copiar en la carpeta root de su proyec
 
 # ¿Como se usa Docker?
 
-Docker funciona con imágenes y containers. Con el dockerfile van a definir una imagen que luego correrá en un container. 
+Docker funciona con imágenes y containers. Con el dockerfile van a definir una imagen que luego correrá en un container.  Entonces, primero debemos crear la imagen y luego ejecutar un container usando esa imagen.
 
 ## ¿Cómo construir una imagen?
 
@@ -46,10 +46,10 @@ docker run testing-docker
 ```
 
 Para entender un poco lo que está pasando y puedan usar docker a su favor, es importante entender los comandos del Dockerfile: 
-
+<!-- 
 ```Docker
-# Esto se ejecuta cuando buildeamos la imagen
-# Indica la imagen base que queremos usar, en este caso Docker. 
+# Estos comandos se ejecutan cuando se crea la imagen
+# Indica la imagen base que queremos usar, en este caso Ubuntu. 
 FROM ubuntu:22.10
 # Instalamos gcc, valgrind y make 
 RUN apt update -y && apt upgrade -y
@@ -60,7 +60,9 @@ COPY . /
 # Esto es lo que se ejecutará cuando corramos la imagen
 CMD make
 
-```
+``` -->
+
+<img src="./dockerfile-explained.png"  width="80%" height="40%">
 
 > :warning: El primer build puede tomar mucho tiempo pero luego, algunos pasos se catchean (como instalar linux) y anda super rápido. 
 
